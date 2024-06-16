@@ -22,18 +22,18 @@ const { title, description } = Astro.props;
         basic: {
           title,
           type: "website",
-          image: "https://petertait.com/opengraph.png",
+          image: "https://anurag.pro/opengraph.png",
         }
       }}
       twitter={{
-        creator: "@petertait"
+        creator: "@anurag__in"
       }}
       extend={{
         link: [{ rel: "icon", href: "/favicon.svg" }],
         meta: [
           {
             name: "twitter:image",
-            content: "http://petertait.com/twitter.png",
+            content: "http://anurag.pro/twitter.png",
           },
           { name: "twitter:title", content: title },
           { name: "twitter:description", content: description },
@@ -53,16 +53,15 @@ const { title, description } = Astro.props;
 	<body>
 		<slot />
     <main>
-    <img class="logo" src="/logo.svg" alt="Peter Tait" />
-    <h1>An award-winning product designer + developer.</h1>
-		<p>Co-founder and CPO at <a href="https://earthcubs.com/" target="_blank">Earth Cubs</a> — helping build the most important education in the most engaging way.</p>
-    <p>An expert in successfully delivering products throughout their lifecycle, from conception to consumer.</p>
-    <p>A design skillset comprising of brand, print, and software. With extensive experience in animation vr, app and web design — utilising Figma, Rive and Adobe.</p>
-    <p>Cutting-edge software dev, open to modern js tech stacks — ts, js, react, astro, and beyond into c#/unity.</p>
-    <p>Collaborations include Intel, HSBC, Pearson, IUCN, Lloyds Banking Group, National Grid, EDF, the World Bank, National Express, ABinBev, and AstraZeneca.</p> 
-		<p>Available for select freelance projects only.</p>
-    <a href="mailto:hi@tait.io">contact</a>
-    <p class="legal">© Peter Tait Ltd.</p>
+    <img class="logo" src="/logo.svg" alt="Anurag Singh" />
+    <h1>All things Product.</h1>
+		<p>As a strategic and data-driven Product Manager, I am passionate about building innovative products that delight customers and drive business growth. </p>
+    <p>My background in engineering, business, and design has enabled me to develop a well-rounded skillset that allows me to effectively collaborate with cross-functional teams and lead products from concept to launch. </p>
+    <p>My expertise lies in crafting user-centric products that leverage data and analytics to deliver exceptional value.</p>
+    <p>My experience spans multiple industries, including Fintech, Ecommerce, and Digital media, providing me with a diverse perspective on product development.</p>
+    <p>Outside of work, I am an avid adventurer, participating in activities such as hiking, scuba diving, surfing, and skiing. I am a certified scuba diver, and I enjoy exploring the beauty and diversity of the underwater world. My passion for adventure translates to my work, as I am constantly seeking new challenges and opportunities to grow and evolve my skills.</p> 
+		<p>Available for select freelance projects.</p>
+    <a href="mailto:mail@anurag.pro">contact</a>
 	</main>
 	</body>
 </html>
